@@ -1,0 +1,99 @@
+baseURL = "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Andreas Bietenbeck"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+title = "Andreas Bietenbeck"
+author = "Andreas Bietenbeck"
+description = "laboratory medicine and medical informatics in Munich"
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+# example ["css/custom.css"]
+customCss = ["css/custom.css"]
+# example ["js/custom.js"]
+customJs = [] 
+mainSections = ["posts"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = true
+# Form Spree Contact Form
+#contactFormAction = "https://formspree.io/f/your-form-hash-here"
+# Google Site Verify
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fas fa-vial"
+title = "Laboratory Medicine"
+url = "/tags/laboratory-medicine/"
+
+[[params.socialIcons]]
+icon = "fas fa-laptop-medical"
+title = "Medical Informatics"
+url = "/tags/medical-informatics/"
+
+[[params.socialIcons]]
+icon = "fas fa-chart-line"
+title = "Patient-Based Real-Time Quality Control"
+url = "/tags/pbrtqc/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@alexbilz.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+  
+  [[menu.main]]
+  name = "Legal Disclosure"
+  weight = 300
+  identifier = "legal"
+  url = "/legal/"
+
+  [[menu.main]]
+  name = "About me"
+  weight = 400
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 500
+  identifier = "contact"
+  url = "/contact/"

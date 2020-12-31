@@ -1,0 +1,21 @@
+:root{
+	--heading-color: #2c3e50;
+}
+
+a:hover {
+    color: #f97100 !important;
+}
+
+.theme-switch-item {
+	visibility: hidden;
+}
+
+.paper {
+    font-size: 15px;
+    line-height: 1;
+    margin: 5px 8px 5px 0;
+}
+
+.post a{
+	color : #2660ab;
+}
