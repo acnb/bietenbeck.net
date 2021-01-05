@@ -1,11 +1,12 @@
-baseURL = "https://example.com"
+baseURL = "https://bietenbeck.net"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Andreas Bietenbeck"
-theme = "anatole"
-summarylength = 10
-enableEmoji = true
+theme = ["anatole", "matomo"]
+summarylength = 100
+enableEmoji = false
 enableRobotsTXT = true
+paginate = 5
 
 # Enable Disqus
 #disqusShortname = ""
@@ -28,7 +29,7 @@ favicon = "favicons/"
 # example ["css/custom.css"]
 customCss = ["css/custom.css"]
 # example ["js/custom.js"]
-customJs = [] 
+customJs = ["https://code.jquery.com/jquery-3.5.1.slim.min.js", "js/mailto.js"] 
 mainSections = ["posts"]
 images = ["images/site-feature-image.png"]
 doNotLoadAnimations = true
@@ -36,6 +37,11 @@ doNotLoadAnimations = true
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
 # Google Site Verify
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+
+[params.matomo]
+url = "https://a.bietenbeck.net"
+id = 1
 
 ## Math settings
 [params.math]
@@ -62,7 +68,7 @@ url = "/tags/pbrtqc/"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:mail@alexbilz.com"
+url = "mailto:"
 
 ## Menu items
 
@@ -96,4 +102,4 @@ url = "mailto:mail@alexbilz.com"
   name = "Contact"
   weight = 500
   identifier = "contact"
-  url = "/contact/"
+  url = "mailto:"
