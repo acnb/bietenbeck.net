@@ -2,7 +2,7 @@
 title: "About me"
 draft: true
 ---
-I am Andreas Bietenbeck, welcome to my webpage. I work as a physician working at the Institut für Laboratoriumsmedizin, medizinische Mikrobiologie und technische Hygiene at the [Munich Municipal Hospital Group](https://www.muenchen-klinik.de/), Germany.
+I am Andreas Bietenbeck, welcome to my webpage. I am a specialist for laboratory medicine based in Munich, Germany.
 
 I am interested in quality control of laboratory tests. The analytical performance specification should be based on clinical need. It describes the allowed deviation of a measurement in a routine laboratory from a metrologically traceable standard. Only in this way, laboratory results describe the state of the patient and can lead to the correct diagnosis and treatment. However, this is harder than it sounds because the [“Mètre des Archives”](https://en.wikipedia.org/wiki/History_of_the_metre#M%C3%A8tre_des_Archives) in laboratory medicine is usually not stable over time. Patient-based real-time quality control (moving average like strategies) might complement traditional quality control approaches.
 
