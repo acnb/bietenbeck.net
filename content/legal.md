@@ -13,8 +13,8 @@ draft: true
 ### Information in accordance with section 5 TMG
 
 Dr. med. Andreas Bietenbeck  
-Cosimastrasse 97  
-81925 München  
+Selma-Lagerlöf-Strasse 22  
+81829 München  
 Germany  
 
 Person responsible for content in accordance with 55 Abs. 2 RStV
@@ -55,8 +55,8 @@ You can always contact me if you have questions regarding elicitation, administr
 ### Angaben gemäß § 5 TMG
 
 Dr. med. Andreas Bietenbeck  
-Cosimastrasse 97  
-81925 München  
+Selma-Lagerlöf-Strasse 22  
+81829 München  
 
 Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
