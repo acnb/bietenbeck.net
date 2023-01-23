@@ -1,6 +1,6 @@
 ---
 title: "Legal Disclosure, Privacy statement / Impressum, Datenschutzerklärung"
-draft: true
+draft: false
 ---
 
 ## Contents
